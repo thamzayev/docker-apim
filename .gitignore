@@ -10,6 +10,10 @@
 *.war
 !docker-compose/apim-is-as-km-with-analytics/dockerfiles/is-as-km/webapps/*.war
 *.ear
+!docker-compose/apim-with-is-and-mi/dockerfiles/is-as-km/dropins/*.jar
+*.war
+!docker-compose/apim-with-is-and-mi/dockerfiles/is-as-km/webapps/*.war
+*.ear
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
